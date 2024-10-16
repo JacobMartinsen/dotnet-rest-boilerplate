@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jacob/Desktop/Workspace/dotnet/practice-1/practice-1.csproj": {}
+    "/Users/jacob/Desktop/Workspace/dotnet/practice-1/dotnet-rest-boilerplate/dotnet-rest-boilerplate.csproj": {}
   },
   "projects": {
-    "/Users/jacob/Desktop/Workspace/dotnet/practice-1/practice-1.csproj": {
+    "/Users/jacob/Desktop/Workspace/dotnet/practice-1/dotnet-rest-boilerplate/dotnet-rest-boilerplate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jacob/Desktop/Workspace/dotnet/practice-1/practice-1.csproj",
-        "projectName": "practice-1",
-        "projectPath": "/Users/jacob/Desktop/Workspace/dotnet/practice-1/practice-1.csproj",
+        "projectUniqueName": "/Users/jacob/Desktop/Workspace/dotnet/practice-1/dotnet-rest-boilerplate/dotnet-rest-boilerplate.csproj",
+        "projectName": "dotnet-rest-boilerplate",
+        "projectPath": "/Users/jacob/Desktop/Workspace/dotnet/practice-1/dotnet-rest-boilerplate/dotnet-rest-boilerplate.csproj",
         "packagesPath": "/Users/jacob/.nuget/packages/",
-        "outputPath": "/Users/jacob/Desktop/Workspace/dotnet/practice-1/obj/",
+        "outputPath": "/Users/jacob/Desktop/Workspace/dotnet/practice-1/dotnet-rest-boilerplate/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jacob/.nuget/NuGet/NuGet.Config"
@@ -44,6 +44,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[8.0.10, )"
             },
